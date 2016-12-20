@@ -1,0 +1,50 @@
+h1 {
+    font-weight: bold;
+    font-size: 350%;
+}
+
+#savedInfo {
+    text-align: right;
+}
+
+#textBoxMain {
+    min-width: 100%;
+    min-height: 90vh;
+    padding: 20px;
+    border: 3px solid #E59400;  /* make this colour the tertiary colour */
+}
+
+#textBoxMain:focus {
+    outline: none;
+}
+
+ul.dropdown-menu  {
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+a:hover {
+    /* slightly lighten on hover */
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1) !important;
+}
+
+#separator {
+    display: block;
+    height: 0;
+    border: 0;
+    border-top: 3px solid #E59400;  /* make this colour the tertiary colour */
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/* theme colours */
+
+.primary-color { color: #111111 !important; }
+.primary-color-bg { background-color: #111111 !important; }
+
+.secondary-color { color: #FFFFF0 !important; }
+.secondary-color-bg { background-color: #FFFFF0 !important; }
+
+.tertiary-color { color: #E59400 !important; }
+.tertiary-color-bg { background-color: #E59400 !important; }
